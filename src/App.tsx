@@ -1,24 +1,20 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { AboutMe } from './Components/AboutMe';
+import { ImageProfileComponent } from './Components/ImageProfileComponent';
+import { Projects } from './Components/Projects';
+import { TecnologiesComponent } from './Components/TecnologiesComponent';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="flex bg-[#1d1d1d] w-screen h-screen absolute justify-center items-center gap-5">
+      <div className='flex flex-col gap-5'>
+        <ImageProfileComponent />
+        <TecnologiesComponent />
+      </div>
+      <div className='flex flex-col gap-5 w-[60rem]'>
+        <AboutMe />
+        <Projects />
+      </div>
     </div>
   );
 }
