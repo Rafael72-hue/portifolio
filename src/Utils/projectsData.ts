@@ -48,27 +48,27 @@ export const PROJECT_DATA = [
         screenshots: [
             {
                 id: 1,
-                imageUrl: NlwEsportsPoster,
-                alternativeText: ''
-            },
-            {
-                id: 2,
-                imageUrl: NlwEsportsPublishAnnouncement,
-                alternativeText: ''
-            },
-            {
-                id: 3,
-                imageUrl: NlwEsportsMobile,
-                alternativeText: ''
-            },
-            {
-                id: 4,
                 imageUrl: NlwEsportsMobileCards,
                 alternativeText: ''
             },
             {
-                id: 5,
+                id: 2,
                 imageUrl: NlwEsportsMobileCardDescription,
+                alternativeText: ''
+            },
+            {
+                id: 3,
+                imageUrl: NlwEsportsPoster,
+                alternativeText: ''
+            },
+            {
+                id: 4,
+                imageUrl: NlwEsportsPublishAnnouncement,
+                alternativeText: ''
+            },
+            {
+                id: 5,
+                imageUrl: NlwEsportsMobile,
                 alternativeText: ''
             },
         ]

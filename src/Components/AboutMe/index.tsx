@@ -5,7 +5,7 @@ export const AboutMe = () => {
                 <span className='text-lg text-white font-bold'>Sobre mim</span>
             </header>
             <section>
-                <p>Sou desenvolvedor front-end, sempre estudando um pouco de tudo. Tenho experiência em Angular e React, no meu tempo livre gosto de estudar outras tecnologias como React Native e NodeJS em busca de me tornar um dev fullstack, seja o front web ou mobile.</p>
+                <p className="text-white text-md">Sou desenvolvedor front-end, sempre estudando um pouco de tudo. Tenho experiência em Angular e React, no meu tempo livre gosto de estudar outras tecnologias como React Native e NodeJS em busca de me tornar um dev fullstack, seja o front web ou mobile.</p>
             </section>
         </div>
     );
