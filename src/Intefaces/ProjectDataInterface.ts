@@ -1,3 +1,7 @@
+export interface ProjectData {
+    data: [ProjectDataProps];
+}
+
 export interface ProjectDataProps {
     id: string;
     poster: string;
