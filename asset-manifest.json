@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/portifolio/static/css/main.d0306d5a.css",
+    "main.js": "/portifolio/static/js/main.8760b0a9.js",
+    "static/media/profile_picture.jpg": "/portifolio/static/media/profile_picture.d2b53ecd224ec427c246.jpg",
+    "static/media/movieflix-movie_section.png": "/portifolio/static/media/movieflix-movie_section.876ca02c5c7b25028454.png",
+    "static/media/movieflix-search_field.png": "/portifolio/static/media/movieflix-search_field.a3170208936002e278e0.png",
+    "static/media/nlw-publish_announcement.png": "/portifolio/static/media/nlw-publish_announcement.c130c27bfcd7797b81a6.png",
+    "static/media/poster.png": "/portifolio/static/media/poster.676f7af5d9669d717190.png",
+    "static/media/nlw-esports-mobile_cards.jpg": "/portifolio/static/media/nlw-esports-mobile_cards.c39d88f721c47aacfabf.jpg",
+    "static/media/nlw-esports-mobile_card-description.jpg": "/portifolio/static/media/nlw-esports-mobile_card-description.0eaea5874e1313bb12e4.jpg",
+    "static/media/nlw-esports-mobile.jpg": "/portifolio/static/media/nlw-esports-mobile.b4dd37d9609d03cd8fc4.jpg",
+    "static/media/movieflix-homepage.png": "/portifolio/static/media/movieflix-homepage.92decce0a3702523b41d.png",
+    "static/media/modo_claro.png": "/portifolio/static/media/modo_claro.adb70f1b614e4efb95a0.png",
+    "static/media/feature-home.png": "/portifolio/static/media/feature-home.4a1e40c10747a34fb972.png",
+    "static/media/feature-trouble.png": "/portifolio/static/media/feature-trouble.d6c900464a1686d25333.png",
+    "static/media/feature-feedback_sended.png": "/portifolio/static/media/feature-feedback_sended.39661d09b9501d81f7e2.png",
+    "index.html": "/portifolio/index.html",
+    "main.d0306d5a.css.map": "/portifolio/static/css/main.d0306d5a.css.map",
+    "main.8760b0a9.js.map": "/portifolio/static/js/main.8760b0a9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d0306d5a.css",
+    "static/js/main.8760b0a9.js"
+  ]
+}
