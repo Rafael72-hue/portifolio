@@ -4,9 +4,10 @@ import { ImageProfileComponent } from './Components/ImageProfileComponent';
 import { Projects } from './Components/Projects';
 import { TecnologiesComponent } from './Components/TecnologiesComponent';
 
+
 function App() {
   return (
-    <div className="flex bg-[#1d1d1d] w-screen h-screen absolute justify-center items-center gap-5">
+    <div className="flex bg-[#1d1d1d] w-screen h-screen absolute justify-center items-center gap-5 p-10 overflow-hidden">
       <div className='flex flex-col gap-5'>
         <ImageProfileComponent />
         <TecnologiesComponent />
