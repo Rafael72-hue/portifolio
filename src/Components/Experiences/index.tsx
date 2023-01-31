@@ -4,12 +4,12 @@ import { MdOutlineKeyboardArrowUp, MdOutlineKeyboardArrowDown } from 'react-icon
 import '../../global.css';
 import { CollapseButton } from '../CollapseButton';
 
-export const AboutMe = () => {
+export const Experiences = () => {
     const [ expanded, setExpanded ] = useState<boolean>(true);
     return (
         <div className='flex flex-col p-5 bg-[#333] rounded gap-3'>
             <header className='flex items-center'>
-                <span className='text-lg text-white font-bold'>Sobre mim</span>
+                <span className='text-lg text-white font-bold'>Experiências</span>
                 <CollapseButton onClick={() => setExpanded(!expanded)} />
             </header>
             <section className={`${expanded ? 'collapse-section' : 'expand-section'}`}>

@@ -1,0 +1,12 @@
+.expand-section {
+    max-height: 0;
+    opacity: 0;
+    display: none !important;
+    transition: 0.5s;
+}
+
+.collapse-section  {
+    max-height: 500px;
+    opacity: 1;
+    transition: 0.5s;
+}

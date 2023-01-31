@@ -27,9 +27,6 @@ export const TecnologiesComponent = () => {
                 <TopicComponent color='bg-react' nomeTecnologia='React Native' porcentagem='w-[35%]'>
                     <FaReact size={34} color={'#5ccfee'}/>
                 </TopicComponent>
-                <TopicComponent color='bg-tailwind' nomeTecnologia='Tailwind css' porcentagem='w-[35%]'>
-                    <SiTailwindcss size={34} color={'#35b3eb'}/>
-                </TopicComponent>
                 <TopicComponent color='bg-nodejs' nomeTecnologia='NodeJS' porcentagem='w-[35%]'>
                     <FaNodeJs size={34} color={'#81b640'}/>
                 </TopicComponent>
