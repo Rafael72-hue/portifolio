@@ -4,6 +4,7 @@ import { Experiences } from './Components/Experiences';
 import { ImageProfileComponent } from './Components/ImageProfileComponent';
 import { Projects } from './Components/Projects';
 import { TecnologiesComponent } from './Components/TecnologiesComponent';
+import { Certificates } from './Components/Certificates';
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <div className='flex flex-col gap-5 w-[60rem]'>
         <AboutMe />
         {/* <Experiences /> */}
+        <Certificates />
         <Projects />
       </div>
     </div>

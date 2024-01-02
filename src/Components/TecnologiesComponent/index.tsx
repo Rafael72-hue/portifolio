@@ -1,14 +1,15 @@
 import { 
     FaAngular,
-    FaBootstrap,
     FaReact,
     FaNodeJs
+
 } from 'react-icons/fa';
 import { 
-    SiTailwindcss,
+    SiVuedotjs,
     SiMysql
 } from 'react-icons/si';
 import { TopicComponent } from '../TopicComponent';
+import CSharpIcon from "../../assets/external_icons/Csharp_icon.png"
 
 export const TecnologiesComponent = () => {
     return (
@@ -18,16 +19,16 @@ export const TecnologiesComponent = () => {
                 <TopicComponent color='bg-angular' nomeTecnologia='Angular' porcentagem='w-[50%]'>
                     <FaAngular size={34} color={'#d2002f'}/>
                 </TopicComponent>
-                <TopicComponent color='bg-bootstrap' nomeTecnologia='Bootstrap' porcentagem='w-[35%]'>
-                    <FaBootstrap size={34} color={'#6e10ea'}/>
-                </TopicComponent>
-                <TopicComponent color='bg-react' nomeTecnologia='React' porcentagem='w-[35%]'>
+                <TopicComponent color='bg-react' nomeTecnologia='React' porcentagem='w-[45%]'>
                     <FaReact size={34} color={'#5ccfee'}/>
                 </TopicComponent>
-                <TopicComponent color='bg-react' nomeTecnologia='React Native' porcentagem='w-[35%]'>
-                    <FaReact size={34} color={'#5ccfee'}/>
+                <TopicComponent color='bg-vue' nomeTecnologia='Vue' porcentagem='w-[35%]'>
+                    <SiVuedotjs size={34} color={'#42d392'}/>
                 </TopicComponent>
-                <TopicComponent color='bg-nodejs' nomeTecnologia='NodeJS' porcentagem='w-[35%]'>
+                <TopicComponent color='bg-csharp' nomeTecnologia='C#' porcentagem='w-[35%]'>
+                    <img src={CSharpIcon} width={34}/>
+                </TopicComponent>
+                <TopicComponent color='bg-nodejs' nomeTecnologia='NodeJS' porcentagem='w-[25%]'>
                     <FaNodeJs size={34} color={'#81b640'}/>
                 </TopicComponent>
                 <TopicComponent color='bg-mysql' nomeTecnologia='MySQL' porcentagem='w-[35%]'>

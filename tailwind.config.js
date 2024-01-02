@@ -7,6 +7,8 @@ module.exports = {
         "angular": "#d2002f",
         "bootstrap": "#6e10ea",
         "react": "#5ccfee",
+        "vue": "#42d392",
+        "csharp": "#280068",
         "nodejs": "#81b640",
         "tailwind": "#35b3eb",
         "mysql": "#1c4863",

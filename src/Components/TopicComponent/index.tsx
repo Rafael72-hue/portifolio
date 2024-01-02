@@ -1,8 +1,3 @@
-import { 
-    FaAngular,
-    FaBootstrap
-} from 'react-icons/fa';
-
 interface TopicProps {
     nomeTecnologia: string;
     porcentagem: string;
@@ -17,7 +12,7 @@ export const TopicComponent = (props: TopicProps) => {
             <div className='flex flex-col gap-1 items-center'>
                 <span className='text-white font-bold'>{props.nomeTecnologia}</span>
                 <div className='flex h-[5px] bg-white w-28 rounded'>
-                    <span className={`${props.color} ${props.porcentagem}`}></span>
+                    <span className={`${props.color} ${props.porcentagem} rounded`}></span>
                 </div>
             </div>
         </div>
