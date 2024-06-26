@@ -18,33 +18,37 @@ import {
     MovieFlixMovieSection, 
     MovieFlixSearchField
 } from "../assets/screenshots/movieflix";
+import {
+    NodeApi1,
+    NodeApi2 
+} from "../assets/screenshots/nodeApi";
 
 export const PROJECT_DATA = [
     {
         id: 1,
         poster: CalculadoraPoster,
-        posterText: "Imagem de uma calculadora",
+        posterText: "Imagem of a calculator",
         projectName: 'Calculadora',
-        description: 'Um dos meus primeiros projetos, feito apenas em HTML, CSS, JS criado para práticar a lógica de programação, contando com um modo escuro dependendo do horário em que usuario acessar.',
+        description: 'One of my first projects, made only in HTML, CSS, JS created to practice programming logic, with a dark mode depending on the time the user accesses it.',
         screenshots: [
             {
                 id: 1,
                 imageUrl: CalculadoraModoClaro,
-                alternativeText: 'Modo claro'
+                alternativeText: 'Light mode'
             },
             {
                 id: 2,
                 imageUrl: CalculadoraPoster,
-                alternativeText: 'Modo escuro'
+                alternativeText: 'Dark mode'
             },
         ]
     },
     {
         id: 2,
         poster: NlwEsportsPoster,
-        posterText: "Imagem da tela principal do NLW E-Sports",
+        posterText: "NLW E-Sports main screen page",
         projectName: 'NLW E-Sports',
-        description: 'Uma aplicação completa feito em React(web), React Native(mobile), NodeJS(backend) e SQL(banco de dados), feito na semana NLW da rocketseat. Essa aplicação tem o objetivo de achar um duo para um tempo de jogatina, você pode até criar uma anúncio com os dias e horários em que você estará disponível.',
+        description: "A complete application made in React (web), React Native (mobile), NodeJS (backend) and SQL (database), made during rocketseat's NLW week. This application aims to find a duo for some gaming time, you can even create an ad with the days and times when you will be available.",
         screenshots: [
             {
                 id: 1,
@@ -76,49 +80,68 @@ export const PROJECT_DATA = [
     {
         id: 3,
         poster: NlwLetMeKnowPoster,
-        posterText: "Imagem da tela principal do NLW Let me know",
+        posterText: "NLW Let me know main screen image",
         projectName: 'NLW Let me know',
-        description: 'Esta é uma aplicação feita em React(front) e NodeJS(back) utilizando SQL para o banco de dados. É uma feature de feedback que pode ser utilizado em diversos sites, onde o usuário tem a opção de enviar o feedback e que também conta com o botão que pode tirar uma screenshot da tela do usuário para que o dev possa localizar o erro reportado com mais facilidade.',
+        description: "This is an application made in React (front) and NodeJS (back) using SQL for the database. It is a feedback feature that can be used on different websites, where the user has the option to send feedback and which also has a button that can take a screenshot of the user's screen so that the dev can locate the reported error more quickly. ease.",
         screenshots: [
             {
                 id: 1,
                 imageUrl: NlwLetMeKnowFeatureHome,
-                alternativeText: 'Tela inicial de feature'
+                alternativeText: 'Feature home screen'
             },
             {
                 id: 2,
                 imageUrl: NlwLetMeKnowFeatureTrouble,
-                alternativeText: 'uma das opções selecionadas'
+                alternativeText: 'one of the selected options'
             },
             {
                 id: 3,
                 imageUrl: NlwLetMeKnowFeatureFeedbackSended,
-                alternativeText: 'Tela de feedback enviado'
+                alternativeText: 'Sent feedback screen'
             }
         ]
     },
     {
         id: 4,
         poster: MovieFlixPoster,
-        posterText: "Imagem da tela principal do MovieFlix",
+        posterText: "MovieFlix main screen image",
         projectName: 'MovieFlix',
-        description: 'Esta é uma aplicação foi feita em Angular consumindo a API do TheMovieDB. Fiz esse projeto para práticar componentização em alguns conceitos do Angular. Nessa aplicação o usuário terá uma lista de filmes e series, onde ele pode ver detalhes e informações de um filme/serie, também conta com um campo para pesquisar um filme/serie e paginação.',
+        description: 'This is an application made in Angular using TheMovieDB API. I did this project to practice componentization in some Angular concepts. In this application the user will have a list of films and series, where they can see details and information about a film/series, it also has a field to search for a film/series and pagination.',
         screenshots: [
             {
                 id: 1,
                 imageUrl: MovieFlixHomePage,
-                alternativeText: 'Tela inicial do movieflix'
+                alternativeText: 'movieflix home screen'
             },
             {
                 id: 2,
                 imageUrl: MovieFlixMovieSection,
-                alternativeText: 'seção de filmes da aplicação'
+                alternativeText: 'movie section of the application'
             },
             {
                 id: 3,
                 imageUrl: MovieFlixSearchField,
-                alternativeText: 'tela exibindo o campo de pesquisa'
+                alternativeText: 'screen displaying the search field'
             }
+        ]
+    },
+    {
+        id: 5,
+        poster: NodeApi1,
+        posterText: "Node Api",
+        projectName: 'Node API',
+        description: 'Api made in nodeJS, using tools such as mongoos to insert data into the database which is mongoDB, the idea is that it is possible to create and log in a user, for this purpose endpoints were created to make requests',
+        screenshots: [
+            {
+                id: 1,
+                imageUrl: NodeApi1,
+                alternativeText: 'Method to validate Login'
+            },
+            {
+                id: 2,
+                imageUrl: NodeApi2,
+                alternativeText: 'Schema to create an manipulate users'
+            },
         ]
     },
 ];

@@ -13,7 +13,12 @@ export const AboutMe = () => {
                 <CollapseButton onClick={() => setExpanded(!expanded)} />
             </header>
             <section className={`${expanded ? 'collapse-section' : 'expand-section'}`}>
-                <p className="text-white text-md">Sou desenvolvedor front-end, sempre estudando um pouco de tudo. Tenho experiência em Angular e React, no meu tempo livre gosto de estudar outras tecnologias como React Native e NodeJS em busca de me tornar um dev fullstack, seja o front web ou mobile.</p>
+                <p className="text-white text-md">Fullstack developer since 2020, seeking to expand my knowledge through various technologies
+                    and excited to learn more each day. Currently, I am focused on developing websites, building
+                    APIs, creating new features, performing maintenance, and always looking forward to new
+                    adventures. In my free time, I build one or two games using JavaScript to improve my knowledge
+                    of logic.
+                    </p>
             </section>
         </div>
     );
