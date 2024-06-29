@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portifolio/static/css/main.ee0c7d52.css",
-    "main.js": "/portifolio/static/js/main.9bbee314.js",
+    "main.js": "/portifolio/static/js/main.2bfb8115.js",
     "static/media/profile_picture.jpg": "/portifolio/static/media/profile_picture.d2b53ecd224ec427c246.jpg",
     "static/media/movieflix-movie_section.png": "/portifolio/static/media/movieflix-movie_section.876ca02c5c7b25028454.png",
     "static/media/movieflix-search_field.png": "/portifolio/static/media/movieflix-search_field.a3170208936002e278e0.png",
@@ -11,6 +11,9 @@
     "static/media/nlw-esports-mobile_card-description.jpg": "/portifolio/static/media/nlw-esports-mobile_card-description.0eaea5874e1313bb12e4.jpg",
     "static/media/nlw-esports-mobile.jpg": "/portifolio/static/media/nlw-esports-mobile.b4dd37d9609d03cd8fc4.jpg",
     "static/media/nodeApi1.png": "/portifolio/static/media/nodeApi1.d9c4d06b38fda53dc452.png",
+    "static/media/pac-man-restart.png": "/portifolio/static/media/pac-man-restart.cbeea28a1dc1a75fef40.png",
+    "static/media/pac-man.png": "/portifolio/static/media/pac-man.857e6156316e65aebb73.png",
+    "static/media/pac-man1.png": "/portifolio/static/media/pac-man1.40eb80cd6984d171d0ee.png",
     "static/media/movieflix-homepage.png": "/portifolio/static/media/movieflix-homepage.92decce0a3702523b41d.png",
     "static/media/nodeApi2.png": "/portifolio/static/media/nodeApi2.0ab5b4361728f01688d7.png",
     "static/media/modo_claro.png": "/portifolio/static/media/modo_claro.adb70f1b614e4efb95a0.png",
@@ -19,10 +22,10 @@
     "static/media/feature-feedback_sended.png": "/portifolio/static/media/feature-feedback_sended.39661d09b9501d81f7e2.png",
     "index.html": "/portifolio/index.html",
     "main.ee0c7d52.css.map": "/portifolio/static/css/main.ee0c7d52.css.map",
-    "main.9bbee314.js.map": "/portifolio/static/js/main.9bbee314.js.map"
+    "main.2bfb8115.js.map": "/portifolio/static/js/main.2bfb8115.js.map"
   },
   "entrypoints": [
     "static/css/main.ee0c7d52.css",
-    "static/js/main.9bbee314.js"
+    "static/js/main.2bfb8115.js"
   ]
 }
